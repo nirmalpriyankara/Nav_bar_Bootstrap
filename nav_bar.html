@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <title>Konik Clothings</title>
+    <style>
+        /* Custom CSS for larger text */
+        .navbar{
+            height: 50px;
+        }
+        .navbar-brand {
+            font-size: 1.2rem;
+            align-items: center;
+            justify-content: center;
+            /* Add this line */
+            display: flex;
+            /* Add this line */
+            flex-grow: 1;
+            /* Add this line */
+        }
+
+        .nav-link {
+            font-size: 1rem;
+        }
+
+        svg {
+            display: none;
+        }
+
+        .mobile {
+            display: flex;
+            list-style-type: none;
+            justify-items: center;
+
+
+        }
+
+        @media (min-width: 990px) {
+
+            /* Adjustments for desktop views */
+            .navbar {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+            }
+
+            .navbar-nav {
+                flex-grow: 1;
+                justify-content: flex-end;
+            }
+
+            .navbar-brand {
+                margin-right: auto;
+                margin-left: ;
+                /* Add this line */
+                text-align: center;
+                display: flex;
+            }
+
+            .navbar-nav:last-child {
+                margin-left: auto;
+            }
+
+            .nav-item {
+                padding: 0 10px;
+                display: flex;
+                /* Add some spacing between nav items */
+            }
+
+            .navbar-toggler {
+                order: -1;
+                margin-right: 10px;
+            }
+
+            svg {
+                display: flex;
+            }
+
+            .mobile {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onclick="">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <a class="navbar-brand ml-3" href="#">KONIK CLOTHINGS</a>
+        <ul class="mobile">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg></a>
+            </li>
+        </ul>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New Trends</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Men Formal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Men Casual</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H .5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery all from CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
